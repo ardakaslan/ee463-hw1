@@ -1,6 +1,6 @@
-plot(out.tout,out.Vout)
+plot(tout,Vout)
 hold on
-plot(out.tout,out.Ia)
+plot(tout,Ia)
 grid minor 
 legend('Vout','Ia')
 xlabel('Time')
