@@ -1,8 +1,8 @@
-plot(tout,Vout)
+plot(out.tout,out.Vout)
 hold on
-plot(tout,Ia)
+plot(out.tout,out.Ia)
 grid minor 
-legend('Ia','Vout')
+legend('Vout','Ia')
 xlabel('Time')
 ylabel('Voltage (V)/Current (A)')
 title('Phase A Current and Output Voltage vs Time')
